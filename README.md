@@ -24,6 +24,10 @@ Você reparará que os scripts usam `craco` ao invés dos scripts react. Isso se
 
 Use o código a vontade, especialmente como material de estudo sobre como testar os elementos Redux: actions, selectors e reducers!
 
+A cobertura de testes está até que decente!
+
+![Lindo relatório de coverage](coverage.png)
+
 Ah sim: os dados vem do MirageJS. Basta olhar ali na pasta `/src/miragejs/` e caso não tenha idéia do que se trata, https://miragejs.com e https://github.com/vedovelli/miragejs-starter-kit são seus amigos!
 
 Divirta-se!
