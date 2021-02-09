@@ -1,0 +1,2423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Deck Displays all elements should match snapshot 1`] = `
+<body>
+  <div>
+    <ul
+      class="grid grid-cols-1 gap-6 lg:grid-cols-2"
+    >
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Tatooine"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Tatooine"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Tatooine
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/1/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      arid
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      desert
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      10465
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      200000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/1/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/1/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/3/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/3/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/4/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/4/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/5/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/5/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/6/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/6/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Alderaan"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Alderaan"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Alderaan
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/2/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      temperate
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      grasslands, mountains
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      40
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      12500
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      2000000000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/1/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/1/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/6/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/6/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Yavin IV"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Yavin IV"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Yavin IV
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/3/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      temperate, tropical
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      jungle, rainforests
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      8
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      10200
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/1/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/1/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Hoth"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Hoth"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Hoth
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/4/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      frozen
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      tundra, ice caves, mountain ranges
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1.1 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      100
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      7200
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      unknown
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/2/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/2/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Dagobah"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Dagobah"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Dagobah
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/5/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      murky
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      swamp, jungles
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      N/A
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      8
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      8900
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      unknown
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/2/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/2/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/3/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/3/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/6/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/6/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Bespin"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Bespin"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Bespin
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/6/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      temperate
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      gas giant
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1.5 (surface), 1 standard (Cloud City)
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      0
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      118000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      6000000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/2/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/2/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Endor"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Endor"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Endor
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/7/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      temperate
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      forests, mountains, lakes
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      0.85 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      8
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      4900
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      30000000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/3/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/3/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Naboo"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Naboo"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Naboo
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/8/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      temperate
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      grassy hills, swamps, forests, mountains
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      12
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      12120
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      4500000000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/3/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/3/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/4/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/4/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/5/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/5/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/6/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/6/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Coruscant"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Coruscant"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Coruscant
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/9/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      temperate
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      cityscape, mountains
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      unknown
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      12240
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1000000000000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/3/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/3/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/4/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/4/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/5/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/5/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/6/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/6/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="col-span-1 flex flex-col text-center bg-gray-100 rounded-lg shadow divide-y divide-gray-200"
+      >
+        <div
+          class="flex-1 flex flex-col p-8"
+        >
+          <img
+            alt="Kamino"
+            class="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+            title="Kamino"
+          />
+          <div
+            class="mt-8"
+          >
+            <div
+              class="bg-white shadow overflow-hidden sm:rounded-lg"
+            >
+              <div
+                class="px-4 py-5 sm:px-6"
+              >
+                <h3
+                  class="text-lg leading-6 font-medium text-gray-900"
+                >
+                  Kamino
+                </h3>
+                <p
+                  class="mt-1 max-w-2xl text-sm text-gray-500"
+                >
+                  /api/planets/10/
+                </p>
+              </div>
+              <div
+                class="border-t border-gray-200 px-4 py-5 sm:px-6"
+              >
+                <dl
+                  class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2"
+                >
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Climate
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      temperate
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Terrain
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      ocean
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Gravity
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1 standard
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Surface water
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      100
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Diameter
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      19720
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-1"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Population
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      1000000000
+                    </dd>
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      About
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    />
+                  </div>
+                  <div
+                    class="sm:col-span-2"
+                  >
+                    <dt
+                      class="text-sm font-medium text-gray-500"
+                    >
+                      Films
+                    </dt>
+                    <dd
+                      class="mt-1 text-sm text-gray-900"
+                    >
+                      <ul
+                        class="border border-gray-200 rounded-md divide-y divide-gray-200"
+                      >
+                        <li
+                          class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+                        >
+                          <div
+                            class="w-0 flex-1 flex items-center"
+                          >
+                            <svg
+                              class="h-5 w-5 text-gray-400"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              />
+                            </svg>
+                            <span
+                              class="ml-2 flex-1 w-0 truncate"
+                            >
+                              /api/films/5/
+                            </span>
+                          </div>
+                          <div
+                            class="ml-4 flex-shrink-0"
+                          >
+                            <a
+                              class="font-medium text-indigo-600 hover:text-indigo-500"
+                              href="/api/films/5/"
+                            >
+                              Visit
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+`;

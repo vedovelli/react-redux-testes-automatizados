@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: FilterByNumericValue Displays all elements should match snapshot 1`] = `
+<body>
+  <div>
+    <form
+      class="px-4 py-5 sm:p-6 text-gray-900"
+      data-testid="filter-numeric-value-form"
+    >
+      <p
+        class="block text-sm font-bold uppercase ml-1 text-gray-700"
+      >
+        Comparison filter
+      </p>
+      <div
+        class="grid grid-flow-row md:grid-flow-col gap-x-2 mb-2"
+      >
+        <select
+          class="capitalize mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+          data-testid="column-filter"
+          id="Columns"
+          name="Columns"
+        >
+          <option
+            value="surface_water"
+          >
+            Surface Water
+          </option>
+          <option
+            value="diameter"
+          >
+            Diameter
+          </option>
+          <option
+            value="orbital_period"
+          >
+            Orbital Period
+          </option>
+          <option
+            value="rotation_period"
+          >
+            Rotation Period
+          </option>
+          <option
+            value="population"
+          >
+            Population
+          </option>
+        </select>
+        <select
+          class="capitalize mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+          data-testid="comparison-filter"
+          id="Comparison"
+          name="Comparison"
+        >
+          <option
+            value="greater_than"
+          >
+            Greater than
+          </option>
+          <option
+            value="less_than"
+          >
+            Less than
+          </option>
+          <option
+            value="equals"
+          >
+            Equals
+          </option>
+        </select>
+      </div>
+      <input
+        autocomplete="off"
+        class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+        data-testid="value-filter"
+        id="value"
+        name="value"
+        placeholder="Type the information to compare"
+        type="number"
+        value="0"
+      />
+      <button
+        class="mt-2 inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        data-testid="button-filter"
+        type="submit"
+      >
+        Apply
+      </button>
+    </form>
+  </div>
+</body>
+`;

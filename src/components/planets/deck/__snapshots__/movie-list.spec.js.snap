@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: MovieList Displays all elements should match snapshot 1`] = `
+<body>
+  <div>
+    <ul
+      class="border border-gray-200 rounded-md divide-y divide-gray-200"
+    >
+      <li
+        class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+      >
+        <div
+          class="w-0 flex-1 flex items-center"
+        >
+          <svg
+            class="h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <span
+            class="ml-2 flex-1 w-0 truncate"
+          >
+            /api/films/1/
+          </span>
+        </div>
+        <div
+          class="ml-4 flex-shrink-0"
+        >
+          <a
+            class="font-medium text-indigo-600 hover:text-indigo-500"
+            href="/api/films/1/"
+          >
+            Visit
+          </a>
+        </div>
+      </li>
+      <li
+        class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+      >
+        <div
+          class="w-0 flex-1 flex items-center"
+        >
+          <svg
+            class="h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <span
+            class="ml-2 flex-1 w-0 truncate"
+          >
+            /api/films/3/
+          </span>
+        </div>
+        <div
+          class="ml-4 flex-shrink-0"
+        >
+          <a
+            class="font-medium text-indigo-600 hover:text-indigo-500"
+            href="/api/films/3/"
+          >
+            Visit
+          </a>
+        </div>
+      </li>
+      <li
+        class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+      >
+        <div
+          class="w-0 flex-1 flex items-center"
+        >
+          <svg
+            class="h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <span
+            class="ml-2 flex-1 w-0 truncate"
+          >
+            /api/films/4/
+          </span>
+        </div>
+        <div
+          class="ml-4 flex-shrink-0"
+        >
+          <a
+            class="font-medium text-indigo-600 hover:text-indigo-500"
+            href="/api/films/4/"
+          >
+            Visit
+          </a>
+        </div>
+      </li>
+      <li
+        class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+      >
+        <div
+          class="w-0 flex-1 flex items-center"
+        >
+          <svg
+            class="h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <span
+            class="ml-2 flex-1 w-0 truncate"
+          >
+            /api/films/5/
+          </span>
+        </div>
+        <div
+          class="ml-4 flex-shrink-0"
+        >
+          <a
+            class="font-medium text-indigo-600 hover:text-indigo-500"
+            href="/api/films/5/"
+          >
+            Visit
+          </a>
+        </div>
+      </li>
+      <li
+        class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
+      >
+        <div
+          class="w-0 flex-1 flex items-center"
+        >
+          <svg
+            class="h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <span
+            class="ml-2 flex-1 w-0 truncate"
+          >
+            /api/films/6/
+          </span>
+        </div>
+        <div
+          class="ml-4 flex-shrink-0"
+        >
+          <a
+            class="font-medium text-indigo-600 hover:text-indigo-500"
+            href="/api/films/6/"
+          >
+            Visit
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+`;
