@@ -11,16 +11,6 @@ function renderComponent(overrides = {}) {
   );
 }
 
-const select1 = [
-  'Surface Water',
-  'Diameter',
-  'Orbital Period',
-  'Rotation Period',
-  'Population',
-];
-
-const select2 = ['Greater than', 'Less than', 'Equals'];
-
 describe('Component: FilterByNumericValue', () => {
   afterEach(() => {
     jest.clearAllMocks();

@@ -1,0 +1,52 @@
+version: 2.1
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:12.18.3
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+      - run:
+          name: install-dependencies
+          command: yarn install --frozen-lockfile
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - ./
+      - save_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+  test:
+    docker:
+      - image: circleci/node:12.18.3
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: run-tests
+          command: yarn test
+    working_directory: ~/repo
+  lint:
+    docker:
+      - image: circleci/node:12.18.3
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: run-lint
+          command: yarn lint
+    working_directory: ~/repo
+workflows:
+  version: 2
+  build_test_lint:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - lint:
+          requires:
+            - build

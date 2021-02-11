@@ -1,7 +1,7 @@
 import React from 'react';
 import configureMockStore from 'redux-mock-store';
 import { Provider } from 'react-redux';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import thunk from 'redux-thunk';
 import App from './App';
 import { INITIAL_STATE } from './store/reducers/planets-reducers';
