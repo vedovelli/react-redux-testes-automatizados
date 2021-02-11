@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 import FilterByNumericValue from './numeric-value';
 
 const submitComparisonInfoMock = jest.fn();
+const submitComparisonInfoMock2 = jest.fn();
 
 function renderComponent(overrides = {}) {
   return render(
@@ -20,6 +21,16 @@ describe('Component: FilterByNumericValue', () => {
     it('should match snapshot', () => {
       const { baseElement } = renderComponent();
       expect(baseElement).toMatchSnapshot();
+    });
+
+    it('should display a select for column filter', () => {
+      renderComponent();
+      expect(screen.getByTestId('column-filter')).toBeInTheDocument();
+    });
+
+    it('should display a select for comparison filter', () => {
+      renderComponent();
+      expect(screen.getByTestId('comparison-filter')).toBeInTheDocument();
     });
   });
 
