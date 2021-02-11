@@ -4,9 +4,8 @@ import userEvent from '@testing-library/user-event';
 import FilterByNumericValue from './numeric-value';
 
 const submitComparisonInfoMock = jest.fn();
-const submitComparisonInfoMock2 = jest.fn();
 
-function renderComponent(overrides = {}) {
+function renderComponent() {
   return render(
     <FilterByNumericValue submitComparisonInfo={submitComparisonInfoMock} />
   );
