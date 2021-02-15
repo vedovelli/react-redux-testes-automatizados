@@ -1,5 +1,7 @@
 ## React, Redux e testes automatizados
 
+[![vedovelli](https://circleci.com/gh/vedovelli/react-redux-testes-automatizados.svg?style=svg)](https://circleci.com/gh/vedovelli/react-redux-testes-automatizados)
+
 Esta é uma aplicação desenvolvida como um tech challenge para uma empresa do Brasil.
 
 A aplicação em funcionamento pode ser vista em https://planet-directory-git-main.vedovelli.vercel.app
